@@ -1,0 +1,24 @@
+.modal {
+    display: inline-block;
+    position: fixed;
+    left:30%;
+    top:30%;
+    width:30%;
+    height:auto;
+    z-index:1;
+    background-color: rgb(201, 139, 139);
+  }
+  
+  .close{
+      position: absolute;
+      right:0px;
+      top:0px;
+
+  }
+  .sbt-btn{
+
+    z-index:1;
+    color:black;
+      width:auto;
+    background-color: red;
+  }
