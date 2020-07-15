@@ -89,7 +89,7 @@ function ManageAddress()
                             <div className="card-header lead">{data.type}</div>
                                 <div className="card-body">
                         <p className="lead font-weight-normal text-wrap" key={key}>{data.Address}</p>
-                                    <button className="btn btn-danger"> EDIT</button><button className="btn btn-danger mx-4">UPDATE</button>
+                                    <button className="btn btn-danger"> EDIT</button><button className="btn btn-secondary mx-4">Delete</button>
                                 </div>
                             </div>
                         )

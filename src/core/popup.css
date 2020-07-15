@@ -1,12 +1,14 @@
 .modal {
-    display: inline-block;
+    display: block;
     position: fixed;
-    left:30%;
+    left: 30%;
     top:30%;
-    width:30%;
-    height:auto;
+    margin: auto;
+    margin-top:60px;
+    width:50%;
+    height:30%;
     z-index:1;
-    background-color: rgb(201, 139, 139);
+    background-color: #f4f6ff;
   }
   
   .close{
